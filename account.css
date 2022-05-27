@@ -1,0 +1,107 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #6FDFDF;
+}
+
+.account-page{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #6FDFDF;
+}
+
+.form-container{
+    background: #fff;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.form-container span{
+    font-weight: bold;
+    padding: 0 10px;
+    color: #555;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}
+
+.form-btn{
+    display: inline-block;
+}
+
+.form-container form{
+    max-width: 300px;
+    padding: 0 20px;
+    position: absolute;
+    top: 130px;
+    transition: transform 0.5s;
+}
+
+
+form input{
+    width: 80%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(229, 235, 241);
+}
+
+form .btn{
+    width: 80%;
+    margin: 5px;
+    padding: 8px;
+    outline: none;
+    border: none;
+    background-color: #242F9B;
+    color: white;
+    border-radius: 5px;
+}
+
+form .btn:hover{
+    background-color: #646FD4;
+    color: white;
+    transition: 0.3s;
+}
+
+form .btn:focus{
+    outline: none;
+}
+
+#LoginForm{
+    left: -320px;
+}
+
+#RegForm{
+    left: 0;
+}
+
+#LoginForm a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #555;
+}
+
+#Indicator{
+    
+    width: 100px;
+    border: none;
+    background: #242F9B;
+    height: 3px;
+    margin-top: 8px;
+    margin-left: 18px;
+    transform: translateX(100px);
+    transition: transform 0.5s;
+    position: absolute;
+}
